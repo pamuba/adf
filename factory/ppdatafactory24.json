@@ -1,0 +1,9 @@
+{
+	"name": "ppdatafactory24",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ad86bc2c-0be9-43c5-b664-8dcad47aabd2",
+		"tenantId": "fca0e8a8-7a87-439e-ba0f-0ad3057fcb09"
+	}
+}
