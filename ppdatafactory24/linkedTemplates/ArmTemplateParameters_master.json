@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ppdatafactory24"
+		},
+		"AzureSqlDatabase1_connectionString": {
+			"value": ""
+		},
+		"trigger1_properties_pipeline_parameters_pstartdate": {
+			"value": "@trigger().outputs.windowStartTime"
+		},
+		"trigger1_properties_pipeline_parameters_penddate": {
+			"value": "@trigger().outputs.windowEndTime"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
